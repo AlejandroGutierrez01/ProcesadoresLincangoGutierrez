@@ -16,5 +16,8 @@ public class Main {
 
         Procesadores_INTEL proIn2 = new Procesadores_INTEL(4, "Intel Core i5", 2.4, 3.5, "LGA", false);
 
+        //Integrante Jose Lincango
+        Procesadores_AMD prom3 = new Procesadores_AMD();
+        Procesadores_AMD prom4 = new Procesadores_AMD(5, "AMD Ryzen 7000 series",2.5,2.0,"Mai",true);
     }
 }
