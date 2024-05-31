@@ -19,4 +19,8 @@ public class Procesadores_escritorio extends Procesadores {
     public void imprimir_datos_escritorio() {
         System.out.println("Socket: " + this.socket);
     }
+    @Override
+    public void imprimir_datos(){
+        System.out.println("Procesador escritorio");
+    }
 }

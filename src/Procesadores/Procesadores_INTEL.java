@@ -17,4 +17,8 @@ public class Procesadores_INTEL extends Procesadores_escritorio{
     public void setTarjeta_video(boolean tarjeta_video) {
         this.tarjeta_video = tarjeta_video;
     }
+    @Override
+    public void imprimir_datos(){
+        System.out.println("Procesador: INTEL");
+    }
 }
