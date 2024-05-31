@@ -48,6 +48,7 @@ public class Procesadores {
 
     //metodos personalizados
     public void imprimir_datos(){
+        System.out.println("Clase principal en el primer nivel");
         System.out.println("Nucleos: " + nucleos);
         System.out.println("Consumo: " + consumo);
         System.out.println("Velocidad: " + velocidad);
